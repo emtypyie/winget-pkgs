@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: kgoldrunner
+ReleaseDate: 2026-09-14
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1140-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 34E651111B6103CAD664C2ADAA29162D86655EF0970BBD1A6AA0590B10B8B5D1
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1183-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3EAE35C2B6FFCC01AEE306DAE4BB60A57CE19EDDDC057CCBA4CC63E875377D03
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1140-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 34E651111B6103CAD664C2ADAA29162D86655EF0970BBD1A6AA0590B10B8B5D1
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kgoldrunner/master/windows/kgoldrunner-master-1183-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3EAE35C2B6FFCC01AEE306DAE4BB60A57CE19EDDDC057CCBA4CC63E875377D03
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

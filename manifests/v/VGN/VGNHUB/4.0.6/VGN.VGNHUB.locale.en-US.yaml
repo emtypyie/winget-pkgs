@@ -1,4 +1,4 @@
-# Created with YamlCreate.ps1 Dumplings Mod
+# Automatically updated by the winget bot at 2026/Aug/27
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: VGN.VGNHUB
@@ -8,7 +8,7 @@ Publisher: VGN
 PublisherUrl: https://vgnlab.com/
 PublisherSupportUrl: https://vgnlab.com/pages/contact
 PrivacyUrl: https://vgnlab.com/pages/privacy-policy
-PackageName: VGN HUB
+PackageName: VGN VHUB
 PackageUrl: https://vgnlab.com/pages/vgn-hub
 License: Freeware
 LicenseUrl: https://vgnlab.com/pages/terms-of-service

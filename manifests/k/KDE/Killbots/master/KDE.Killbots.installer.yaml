@@ -6,17 +6,18 @@ PackageVersion: master
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: killbots
+ReleaseDate: 2026-09-14
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/killbots/master/windows/killbots-master-962-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 3E31F2797A0C04F1D77D9AA13CD9432BFCB5CF0FEB61E3D487FA462694DCB290
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/killbots/master/windows/killbots-master-988-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: BC9B6DEC48D4C29F82C26F9E8CE4B5779A78F0551C532010048C0FDC6001614E
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/killbots/master/windows/killbots-master-962-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 3E31F2797A0C04F1D77D9AA13CD9432BFCB5CF0FEB61E3D487FA462694DCB290
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/killbots/master/windows/killbots-master-988-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: BC9B6DEC48D4C29F82C26F9E8CE4B5779A78F0551C532010048C0FDC6001614E
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

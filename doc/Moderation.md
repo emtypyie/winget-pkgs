@@ -129,7 +129,13 @@ Occasionally the automatic validation runs into an issue which is transient, or 
 
 > Trigger: Comment `[Policy] reset feedback` on a pull request
 
-The bots which help keep the repository clean sometimes make mistakes or or sometimes a moderator misclicks and accidentally requests changes. This can add the `Needs-Author-Feedback` or `Needs-Attention` labels to pull requests that don't need them. Moderators can remove these labels without re-running the pipelines to allow for the PR to be re-reviewed and merged.
+The bots which help keep the repository clean sometimes make mistakes or sometimes a moderator misclicks and accidentally requests changes. This can add the `Needs-Author-Feedback` or `Needs-Attention` labels to pull requests that don't need them. Moderators can remove these labels without re-running the pipelines to allow for the PR to be re-reviewed and merged.
+
+### Marking CLA as Signed
+
+> Trigger: Comment `[Policy] CLA Signed` on a pull request
+
+When the Contributor License Agreement has been signed but the `Needs-CLA` label remains on a pull request, moderators can use this trigger to remove the label.
 
 ### Removing Labels
 
